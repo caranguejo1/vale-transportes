@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Vale Transportes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .navbar {
+            transition: top 0.3s;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #17a2b8;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./escudos/logo/download.png" alt="Vale Transportes" class="nav__logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#serviços">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#avaliacoes">Avaliações</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#empresa">Empresa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="banner">
+        <div class="banner__contents text-center text-lg-start">
+            <h1 class="banner__title">Vale Transportes</h1>
+            <p class="banner__description">
+                A empresa Vale Transportes é uma das maiores empresas do oeste catarinense. Aberta em 2019 e atuante na cidade de Chapecó desde então, consagra seus clientes com transporte seguro e confortável em cada detalhe. Trabalhamos desde transporte escolar, até viagem turísticas para cidades no exterior, como Cidade de Leste no Paraguai e Buenos Aires na Argentina.
+            </p>
+            <div class="banner__button">
+                <button class="btn btn-success mx-1" onclick="location.href='#serviços'">Serviços</button>
+                <button class="btn btn-success mx-1" onclick="location.href='#contato'">Contato</button>
+                <button class="btn btn-success mx-1" onclick="location.href='#avaliacoes'">Avaliações</button>
+                <button class="btn btn-success mx-1" onclick="location.href='#empresa'">Empresa</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container my-5" id="serviços">
+        <div class="row">
+            <h2>Serviços</h2>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="m-2">
+                    <img class="row__poster img-fluid" src="./escudos/serviços/transporte-escolar_resized.jpg" alt="Transporte Escolar">
+                    <h4>Transporte Escolar</h4>
+                    <p>Trabalhamos com todas as principais escolas particulares de Chapecó e região, proporcionando a melhor modalidade de transporte infantil de toda a região, sempre cuidando da pontualidade e excelência em serviço.</p>
+                </div>
+                <div class="m-2">
+                    <img class="row__poster img-fluid" src="./escudos/serviços/paraguai-e-suas-lojas-4oito_19060.jpg" alt="Viagem ao Paraguai">
+                    <h4>Viagem ao Paraguai</h4>
+                    <p>Fazemos essa viagem há mais de 5 anos e somos atualmente a principal empresa do segmento no mercado. Esta viagem de curta/média duração dura em torno de 8 horas, partimos todas as sextas-feiras à meia-noite e retornamos da Cidade de Leste às duas horas da tarde do mesmo dia. Para mais informações, favor entrar em contato.</p>
+                </div>
+                <div class="m-2">
+                    <img class="row__poster img-fluid" src="./escudos/serviços/passagens-aereas-buenos-aires-capa2019-02 - Copia_resized.jpg" alt="Viagem à Argentina">
+                    <h4>Viagem à Argentina</h4>
+                    <p>Essa maravilhosa viagem, feita duas vezes ao ano, conta com os melhores motoristas e coats do sul do país. Saímos durante o inverno e outra no verão, duas experiências únicas e imperdíveis. A viagem dura em média 15 dias.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="contato">
+            <h2>Contato</h2>
+            <p>
+                Fique à vontade para entrar em contato com a gente, solicitar um orçamento ou tirar suas dúvidas:
+            </p>
+            <ul>
+                <li><strong>Endereço:</strong> Rua das Flores, 123, Bairro Jardim, Santa Catarina, SC, CEP: 89.806-047</li>
+                <li><strong>Telefone:</strong> (49) 91234-5678 (WhatsApp)</li>
+                <li><strong>Horário de atendimento:</strong> 07:00 às 19:00 de segunda à sábado.</li>
+                <li><strong>E-mail:</strong> valetransportes@gmail.com.br</li>
+                <li><strong>Site:</strong> <a href="http://www.valetransportes.com.br">www.valetransportes.com.br</a></li>
+                <li><strong>Redes sociais:</strong> @valetransportes</li>
+            </ul>
+        </div>
+
+        <div class="row" id="avaliacoes">
+            <h2>Avaliações</h2>
+            <p>
+                Aqui você encontra depoimentos dos mais diversos clientes da Vale Transportes, confira a seguir:
+            </p>
+            <ul>
+                <li>"Sempre foi muito pontual e atenciosa com nossos filhos. Não trocamos por nada!" - Maria Pereira (15/03/2024)</li>
+                <li>"Confio 100% no serviço deles. Meu filho adora os motoristas e o cuidado que eles têm com as crianças." - João Oliveira (02/06/2024)</li>
+                <li>"Recomendo a todos os pais que querem segurança e tranquilidade no transporte dos filhos." - Ana Santos (20/07/2024)</li>
+            </ul>
+        </div>
+
+        <div class="row" id="empresa">
+            <h2>Empresa</h2>
+            <p><strong>Nossa Visão</strong></p>
+            <p>
+                Prezamos pelo conforto e custo-benefício em cada viagem, sempre cuidando da segurança e integridade dos nossos clientes.
+            </p>
+            <p><strong>Nossa Missão</strong></p>
+            <p>
+                Sempre oferecer o serviço da maior qualidade e conforto, respeitando ao máximo todos os nossos clientes.
+            </p>
+            <p><strong>Nossos Valores</strong></p>
+            <ul>
+                <li>Nos submetermos ao respeito mútuo e integridade aos nossos clientes.</li>
+                <li>Crescer de forma ética e sustentável.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <h5>Encontre-nos</h5>
+            <p>Rua das Flores, 123, Bairro Jardim, Santa Catarina, SC, CEP: 89.806-047</p>
+            <a href="https://www.google.com/maps?q=Rua+das+Flores,+123,+Bairro+Jardim,+Santa+Catarina,+SC,+CEP:+89.806-047" target="_blank">Ver no Google Maps</a>
+        </div>
+    </footer>
+
+    <script>
+        let lastScrollTop = 0;
+        const navbar = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', function () {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                // Rolando para baixo
+                navbar.style.top = "-100px"; // Esconde a navbar
+            } else {
+                // Rolando para cima
+                navbar.style.top = "0"; // Mostra a navbar
+            }
+
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Para evitar valores negativos
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-4CEzLz0xWgO+kcprq/sFcRlDADpD7rWpH7YiwLZYZ+Vb4XLBxL0jzSBI6OMe6gAd" crossorigin="anonymous"></script>
+</body>
+</html>

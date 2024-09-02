@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    transition: top 0.3s;
+}
+
+.nav__logo {
+    width: 80px;
+    object-fit: contain;
+}
+
+.banner {
+    background-image: url('./escudos/serviços/pngtree-move-the-company-goods-transport-picture-image_921783.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: darkgreen;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__contents {
+    padding: 20px;
+    max-width: 900px;
+}
+
+.banner__title {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.banner__description {
+    line-height: 1.5;
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+.row__poster {
+    max-width: 30%;
+    flex: 1 1 30%;
+    margin: 10px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+
+.row__poster:hover {
+    transform: scale(1.08);
+}
+
+@media (max-width: 768px) {
+    .banner__title {
+        font-size: 2rem;
+    }
+
+    .banner__description {
+        font-size: 1rem;
+    }
+
+    .banner__button button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .row__poster {
+        max-width: 45%;
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner__title {
+        font-size: 1.5rem;
+    }
+
+    .banner__description {
+        font-size: 0.9rem;
+    }
+
+    .banner__button button {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+
+    .row__poster {
+        max-width: 100%;
+        flex: 1 1 100%;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
